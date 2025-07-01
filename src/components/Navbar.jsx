@@ -102,9 +102,9 @@ const Navbar = () => {
               backgroundImage: "linear-gradient(to bottom right, #0f0f0f, #1a1a1a)"
             }}
           >
-            <ul className="w-full">
+            <ul className="w-full flex flex-col items-center">
                 {navItems.map((item, index) => (
-                    <li key={index} className="my-6">
+                    <li key={index} className="my-4">
                     <a
                         href={item.href}
                         className="text-xl font-medium text-white block
