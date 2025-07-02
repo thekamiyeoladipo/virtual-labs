@@ -4,7 +4,7 @@ import video2 from '../assets/video2.mp4';
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center mt-6 lg:mt-20">
+    <div className="flex flex-col items-center justify-center mt-6 lg:mt-15">
       {/* text */}
       <h1 className="text-5xl sm:text-6xl lg:text-7xl text-center tracking-tight">
         VirtualR build tools
