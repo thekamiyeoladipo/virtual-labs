@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-6 lg:mt-20">
       {/* text */}
-      <h1 className="text-4xl sm:text-6xl lg:text-6xl text-center tracking-wide">
+      <h1 className="text-5xl sm:text-6xl lg:text-7xl text-center tracking-tight">
         VirtualR build tools
         <span
           className="bg-gradient-to-r from-orange-500 to-red-800
