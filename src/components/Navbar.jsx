@@ -107,6 +107,7 @@ const Navbar = () => {
                     <li key={index} className="my-4">
                     <a
                         href={item.href}
+                        onClick={toggleNavbar}
                         className="text-xl font-medium text-white block
                         hover:text-orange-500 relative
                         pl-4 border-l-2 border-transparent hover:border-orange-500"
