@@ -21,7 +21,7 @@ const Workflow = () => {
       </h2>
       <div className="flex flex-wrap justify-center">
         {/* left column */}
-        <div className="p-12 w-full lg:w-1/2">
+        <div className="p-2 w-full lg:w-1/2">
           <img src={codeImg} alt="" />
         </div>
         {/* right column */}
@@ -38,7 +38,8 @@ const Workflow = () => {
                 <CheckCircle2 className="h-6 w-6" />
               </div>
               <div className='mt-'>
-                <h5 className=''>{item.description}</h5>
+                <h5 className='mt-2 mb-2 text-xl'>{item.title}</h5>
+                <p className='text-md text-neutral-500'>{item.description}</p>
               </div>
             </div>
           ))}
