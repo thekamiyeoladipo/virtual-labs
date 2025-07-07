@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import BackToTop from './components/BackToTop';
 import Workflow from './components/Workflow';
+import Pricing from './components/Pricing';   
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Features />
       <BackToTop />
       <Workflow />
+      <Pricing />
     </>
   );
 };
