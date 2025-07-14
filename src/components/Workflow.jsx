@@ -21,11 +21,11 @@ const Workflow = () => {
       </h2>
       <div className="flex flex-wrap justify-center">
         {/* left column */}
-        <div className="p-2 w-full lg:w-1/2">
+        <div className="mt-10 p-2 w-full lg:w-1/2">
           <img src={codeImg} alt="" />
         </div>
         {/* right column */}
-        <div className="pt-12 w-full lg:w-1/2">
+        <div className="mt-10 pt-12 w-full lg:w-1/2">
           {checklistItems.map((item, index) => (
             <div
               key={index}
