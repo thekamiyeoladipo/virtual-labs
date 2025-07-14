@@ -6,6 +6,7 @@ import BackToTop from './components/BackToTop';
 import Workflow from './components/Workflow';
 import Pricing from './components/Pricing';   
 import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Workflow />
       <Pricing />
       <Testimonials />
+      <Footer />
     </>
   );
 };
