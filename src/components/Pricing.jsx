@@ -12,8 +12,9 @@ const Pricing = () => {
                 <div key={index} className="w-full sm:w-1/2
                 lg:w-1/3 p-2">
                     <div className="p-10 border-neutral-700 rounded-xl">
-                    <p className="text-4xl">
+                    <p className="text-4xl mb-8">
                         {option.title}
+                        
                     </p>
                     </div>
                 </div>
